@@ -4,20 +4,19 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-  <div class="circles">
-    <div class="circle-with-text">
-      <h1 id="piResult">Pi</h1>
-    </div>
     <div class="circle-with-text multi-line-text">
-      <h3>Number to the
+      <h3>π to the
         <br>
-         <input type="text" name="int" class="int">
+         <input min="0" max="40" type="number" name="int" class="int">
          th:
+         <p>*up to 40</p>
          <br>
-         <button id="calculate">Calculate</button></h3>
-
+         <button id="calculate">Calculate</button>
+       </h3>
     </div>
-  </div>
+    <div class="circle-with-text" id="pi-circle">
+      <h1 id="piResult">Pi ≈</h1>
+    </div>
   <script src="app.js"></script>
 </body>
 </html>
