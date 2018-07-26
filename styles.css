@@ -1,19 +1,17 @@
 body {
   margin: 0;
 }
-.circles {
-  display: flex;
-}
 .circle-with-text {
   background: brown;
+  border-radius: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100%;
   text-align: center;
-  margin: 5px 20px;
+  margin: auto;
   font-size: 15px;
   padding: 15px;
-  display: flex;
+  margin-top: 2em;
   height: 180px;
   width: 180px;
   color: #fff;
@@ -21,15 +19,19 @@ body {
 .multi-line-text {
   font-size: 20px;
 }
-
 .int {
   padding: .5em;
 }
-
 input {
-  width: 40px;
+  width: 50px;
 }
-
+h3 {
+  padding-top: 2em;
+}
 #calculate {
-  margin-top: 2em;
+  margin-top: -1.5em;;
+  margin-bottom: 2em;
+}
+p {
+  font-size: 12px;
 }
